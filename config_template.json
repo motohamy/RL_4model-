@@ -1,0 +1,26 @@
+
+
+{
+  "cryptocurrencies": ["BTC", "SOL"],
+              "gemini_api_key": "AIzaSyDK0JbwANnhWfqK2HTkHNvRvjD3mBVY6ew",  
+              "cryptopanic_api_key": "9b84be3aa755877273c581025badf243eef7f19f",  
+              "cryptoquant_api_key": "av44iQ476js5H9wrjRPuorzIDZd25FyIPO9Imdgo" ,
+              "webhook_urls": {
+                  "BTC": "http://localhost:5000/webhook/btc",
+                  "SOL": "http://localhost:5000/webhook/sol",
+                  "default": "http://localhost:5000/webhook/default"
+              },
+              "data_fetch_interval": 60,
+              "news_fetch_interval": 300,
+              "onchain_fetch_interval": 300,
+              "historical_data_interval": 3600,
+              "confidence_threshold": 0.8,
+              "db_path": "crypto_a2a.db",
+              "model_path": "models",
+              "run_indefinitely": true,
+              "learning_enabled": true,
+              "technical_analysis_enabled": true,
+              "min_trades_for_learning": 10,
+              "retraining_interval": 86400,
+              "risk_reward_ratio": 2.0
+            }
